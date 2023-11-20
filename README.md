@@ -1,8 +1,15 @@
-# React + Vite
+# We Form - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Esse é um rebuild de uma página que fiz num evento da OneBitCode, só que dessa vez decidir fazer usando React + Vite.
 
-Currently, two official plugins are available:
+- [Página original](https://hipnosm.github.io/projeto-css-ada/)
+- [Página refeita em React + Vite](https://we-form-react.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# We Form - React
+
+## Description
+This is a rebuild of a page that i did at a OneBitCode event, but this time i decided to do it using React + Vite.
+
+- [Original page](https://hipnosm.github.io/projeto-css-ada/)
+- [Page redone](https://we-form-react.vercel.app/)
