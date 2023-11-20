@@ -1,12 +1,13 @@
 import HeroSection from "./components/heroSection";
 import MainSection from "./components/mainSection";
+import Hero from './assets/hero.svg'
 
 function App() {
 
   return (
     <div className="content">
       <HeroSection
-        img_src="/assets/hero.svg"
+        img_src={Hero}
         img_alt="hero photo"
         spanContent="We "
         h1Content="Form"
