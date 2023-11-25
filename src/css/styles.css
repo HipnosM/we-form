@@ -21,9 +21,9 @@ body {
 .content {
     display: grid;
     grid-template-areas:
-        ". . . ."
-        ". hero form ."
-        ". hero form ."
+    ". . . ."
+    ". hero form ."
+    ". hero form ."
     ;
     gap: 8.5rem;
 }
@@ -59,6 +59,53 @@ main {
 main h2 {
     font-size: 3.6rem;
     font-weight: 500;
+    max-width: 43rem;
+}
+
+main header {
+    display: flex;
+    gap: 0 1.8rem;
+    align-items: center;
+}
+
+main header a {
+    color: var(--pink);
+    font-size: 2.4rem;
+}
+
+main form {
+    margin-top: 1.6rem;
+}
+
+main form label {
+    display: block;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+main form :is(input, select) {
+    width: 48.9rem;
+    height: 5.5rem;
+    border-radius: var(--border-rad);
+    border: var(--border);
+    padding: 0 1.8rem;
+    background-color: white;
+}
+
+main form .poinst {
+    position: relative;
+}
+
+main form input + button {
+    position: absolute;
+    right: 1.5rem;
+    top: calc(50% + 7.75rem);
+    background-color: transparent;
+    border: none;
+    color: #35E6E9;
+    font-size: 2.4rem;
+    cursor: pointer;
 }
 
 main .botoes {
@@ -66,13 +113,14 @@ main .botoes {
     flex-flow: column;
 }
 
-main .botoes a {
+main .botoes :is(a, button) {
     background-color: #35E6E9;
     color: white;
     height: 5.5rem;
     font-size: 2.4rem;
     border-radius: var(--border-rad);
     text-decoration: none;
+    border: none;
 
     display: flex;
     justify-content: center;
@@ -83,6 +131,10 @@ main .botoes a {
 main .botoes a+a {
     background-color: #FF5678;
     margin-top: 4.8rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 main footer p {
@@ -113,5 +165,4 @@ main footer a {
         flex-direction: column;
         text-align: center; 
     }
-};
-
+}

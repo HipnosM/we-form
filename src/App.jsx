@@ -1,6 +1,6 @@
 import HeroSection from "./components/heroSection";
 import MainSection from "./components/mainSection";
-import Hero from './assets/hero.svg'
+import Hero from "./assets/hero.svg"
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         h2SecondContent="ou acesse dados de"
         secondSpan="parceiras"
         
-        mainFirstHref="./Cadastro"
+        mainFirstHref="/Cadastro"
         mainSecondHref="#"
         firstButtonText="Cadastrar entidade"
         secondButtonText="Ver entidades cadastradas"
