@@ -100,7 +100,7 @@ main form .poinst {
 main form input + button {
     position: absolute;
     right: 1.5rem;
-    top: calc(50% + 7.75rem);
+    top: calc(50% + 7.65rem);
     background-color: transparent;
     border: none;
     color: #35E6E9;
